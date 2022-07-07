@@ -28,7 +28,7 @@ import "../assets/styles/navStyle.css";
       <Navbar 
         ref={navbarMenuRef}
         className={`fixed-top navbar navbar-expand-lg myNavbar ${ colorChange ? "navbar-transparent" : "navbar-green"}`}  expand="lg">
-        <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>AGRI ZONE</Navbar.Brand>
+        <Navbar.Brand className={ colorChange ? "brand" : "brandColor"} href={process.env.PUBLIC_URL + "/#home"}>AGRI ZONE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

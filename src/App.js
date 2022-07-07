@@ -9,8 +9,6 @@ function App() {
     <div className="App">
       <Navigation/>
       <Home/>
-      {/* <div style={{height:"100vh", backgroundColor:"cyan"}}></div>
-      <div style={{height:"100vh", backgroundColor:"teal"}}></div> */}
       <Footer children="Muaz Aqdas"/>
     </div>
   );

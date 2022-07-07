@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutMe(props){
     return (
-        <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{ backgroundColor: "white" }}>
+        <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{ backgroundColor: "#D3EBCD" }}>
           <div className="container container-fluid">
             <div className="row">
               <div className="col-5 d-none d-lg-block align-self-center">
