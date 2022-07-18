@@ -3,6 +3,10 @@ import useResizeObserver from "../hooks/useResizeObserver"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../assets/styles/navStyle.css";
+import { Button } from "react-bootstrap";
+
+import {AiFillStar} from 'react-icons/ai'
+import {CgGitFork} from 'react-icons/cg'
 
    const Navigation = React.forwardRef((props, ref) => {
 
@@ -37,6 +41,10 @@ import "../assets/styles/navStyle.css";
             <Nav.Link className="nav-link lead" href="/#order" target="" rel="noreferrer noopener">ORDER</Nav.Link>
             <Nav.Link className="nav-link lead" href={process.env.PUBLIC_URL + "/#contactus"}>CONTACT US</Nav.Link>
           </Nav>
+            <Button className="githubButton btn-outline-dark" href="https://github.com/muazaqdas/agrizone" variant="outlined" target="_blank">
+              <CgGitFork style={{ fontSize: "1.7em" }} />{" "}
+              <AiFillStar style={{ fontSize: "1.6em" }} />
+            </Button>
         </Navbar.Collapse>
       </Navbar>
     );

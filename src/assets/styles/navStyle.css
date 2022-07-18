@@ -4,7 +4,10 @@
     display: flex;
     align-items: center;
 }
-
+.githubButton{
+    position: absolute !important;
+    right: 20px !important;
+}
 .brand , .brandColor {
     font-size: 1.6rem;
     font-weight: 500;
