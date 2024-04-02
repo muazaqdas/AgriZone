@@ -3,10 +3,10 @@ import useResizeObserver from "../hooks/useResizeObserver"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../assets/styles/navStyle.css";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 
-import {AiFillStar} from 'react-icons/ai'
-import {CgGitFork} from 'react-icons/cg'
+// import {AiFillStar} from 'react-icons/ai'
+// import {CgGitFork} from 'react-icons/cg'
 
    const Navigation = React.forwardRef((props, ref) => {
 
