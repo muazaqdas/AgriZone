@@ -41,10 +41,10 @@ import {CgGitFork} from 'react-icons/cg'
             <Nav.Link className="nav-link lead" href="/#order" target="" rel="noreferrer noopener">ORDER</Nav.Link>
             <Nav.Link className="nav-link lead" href={process.env.PUBLIC_URL + "/#contactus"}>CONTACT US</Nav.Link>
           </Nav>
-            // <Button className="githubButton btn-outline-dark" href="https://github.com/muazaqdas/agrizone" variant="outlined" target="_blank">
-            //   <CgGitFork style={{ fontSize: "1.7em" }} />{" "}
-            //   <AiFillStar style={{ fontSize: "1.6em" }} />
-            // </Button>
+            {/* <Button className="githubButton btn-outline-dark" href="https://github.com/muazaqdas/agrizone" variant="outlined" target="_blank">
+              <CgGitFork style={{ fontSize: "1.7em" }} />{" "}
+              <AiFillStar style={{ fontSize: "1.6em" }} />
+            </Button>*/}
         </Navbar.Collapse>
       </Navbar>
     );
